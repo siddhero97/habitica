@@ -1,0 +1,560 @@
+[
+  {
+    "line": 14,
+    "directDependency": "amazon-payments",
+    "declaredVersion": "^0.2.9",
+    "vulnerablePackage": "form-data",
+    "vulnerabilityCode": "SNYK-JS-FORMDATA-10841150",
+    "severity": 8,
+    "message": "Predictable Value Range from Previous Values affecting package form-data. No remediation advice available"
+  },
+  {
+    "line": 16,
+    "directDependency": "bcrypt",
+    "declaredVersion": "^6.0.0",
+    "vulnerablePackage": "babel-traverse",
+    "vulnerabilityCode": "SNYK-JS-BABELTRAVERSE-5962463",
+    "severity": 8,
+    "message": "Incomplete List of Disallowed Inputs affecting package babel-traverse. No remediation advice available"
+  },
+  {
+    "line": 16,
+    "directDependency": "bcrypt",
+    "declaredVersion": "^6.0.0",
+    "vulnerablePackage": "browserslist",
+    "vulnerabilityCode": "SNYK-JS-BROWSERSLIST-18854715",
+    "severity": 8,
+    "message": "Prototype Pollution affecting package browserslist. No remediation advice available"
+  },
+  {
+    "line": 16,
+    "directDependency": "bcrypt",
+    "declaredVersion": "^6.0.0",
+    "vulnerablePackage": "browserslist",
+    "vulnerabilityCode": "SNYK-JS-BROWSERSLIST-18856271",
+    "severity": 8,
+    "message": "Allocation of Resources Without Limits or Throttling affecting package browserslist. No remediation advice available"
+  },
+  {
+    "line": 27,
+    "directDependency": "eslint-config-habitrpg",
+    "declaredVersion": "^6.2.3",
+    "vulnerablePackage": "uri-js",
+    "vulnerabilityCode": "SNYK-JS-URIJS-19963963",
+    "severity": 8,
+    "message": "Infinite loop affecting package uri-js. Upgrade to eslint@10.0.0"
+  },
+  {
+    "line": 28,
+    "directDependency": "eslint-plugin-mocha",
+    "declaredVersion": "^6.3.0",
+    "vulnerablePackage": "js-yaml",
+    "vulnerabilityCode": "SNYK-JS-JSYAML-17900054",
+    "severity": 8,
+    "message": "Inefficient Algorithmic Complexity affecting package js-yaml. No remediation advice available"
+  },
+  {
+    "line": 28,
+    "directDependency": "eslint-plugin-mocha",
+    "declaredVersion": "^6.3.0",
+    "vulnerablePackage": "js-yaml",
+    "vulnerabilityCode": "SNYK-JS-JSYAML-18593780",
+    "severity": 8,
+    "message": "Inefficient Algorithmic Complexity affecting package js-yaml. No remediation advice available"
+  },
+  {
+    "line": 28,
+    "directDependency": "eslint-plugin-mocha",
+    "declaredVersion": "^6.3.0",
+    "vulnerablePackage": "js-yaml",
+    "vulnerabilityCode": "SNYK-JS-JSYAML-19496768",
+    "severity": 8,
+    "message": "Allocation of Resources Without Limits or Throttling affecting package js-yaml. No remediation advice available"
+  },
+  {
+    "line": 30,
+    "directDependency": "express-basic-auth",
+    "declaredVersion": "^1.2.1",
+    "vulnerablePackage": "proxy-addr",
+    "vulnerabilityCode": "SNYK-JS-PROXYADDR-19812342",
+    "severity": 8,
+    "message": "User Impersonation affecting package proxy-addr. Your dependencies are out of date, otherwise you would be using a newer proxy-addr than proxy-addr@2.0.7. Try relocking your lockfile or deleting node_... (Snyk)"
+  },
+  {
+    "line": 33,
+    "directDependency": "firebase-admin",
+    "declaredVersion": "^12.7.0",
+    "vulnerablePackage": "validator",
+    "vulnerabilityCode": "SNYK-JS-VALIDATOR-13653476",
+    "severity": 8,
+    "message": "Incomplete Filtering of One or More Instances of Special Elements affecting package validator. Upgrade to express-validator@6.5.0"
+  },
+  {
+    "line": 36,
+    "directDependency": "gulp",
+    "declaredVersion": "^4.0.0",
+    "vulnerablePackage": "http-cache-semantics",
+    "vulnerabilityCode": "SNYK-JS-HTTPCACHESEMANTICS-19964064",
+    "severity": 8,
+    "message": "Origin Validation Error affecting package http-cache-semantics. No remediation advice available"
+  },
+  {
+    "line": 36,
+    "directDependency": "gulp",
+    "declaredVersion": "^4.0.0",
+    "vulnerablePackage": "http-cache-semantics",
+    "vulnerabilityCode": "SNYK-JS-HTTPCACHESEMANTICS-19964068",
+    "severity": 8,
+    "message": "Improper Authorization affecting package http-cache-semantics. No remediation advice available"
+  },
+  {
+    "line": 37,
+    "directDependency": "gulp-babel",
+    "declaredVersion": "^8.0.0",
+    "vulnerablePackage": "braces",
+    "vulnerabilityCode": "SNYK-JS-BRACES-19963945",
+    "severity": 8,
+    "message": "Uncontrolled Recursion affecting package braces. No remediation advice available"
+  },
+  {
+    "line": 37,
+    "directDependency": "gulp-babel",
+    "declaredVersion": "^8.0.0",
+    "vulnerablePackage": "braces",
+    "vulnerabilityCode": "SNYK-JS-BRACES-6838727",
+    "severity": 8,
+    "message": "Excessive Platform Resource Consumption within a Loop affecting package braces. Upgrade to gulp@5.0.0"
+  },
+  {
+    "line": 37,
+    "directDependency": "gulp-babel",
+    "declaredVersion": "^8.0.0",
+    "vulnerablePackage": "decode-uri-component",
+    "vulnerabilityCode": "SNYK-JS-DECODEURICOMPONENT-21802484",
+    "severity": 8,
+    "message": "Regular Expression Denial of Service (ReDoS) affecting package decode-uri-component. Upgrade to gulp@5.0.0"
+  },
+  {
+    "line": 37,
+    "directDependency": "gulp-babel",
+    "declaredVersion": "^8.0.0",
+    "vulnerablePackage": "unset-value",
+    "vulnerabilityCode": "SNYK-JS-UNSETVALUE-2400660",
+    "severity": 8,
+    "message": "Prototype Pollution affecting package unset-value. Upgrade to gulp@5.0.0"
+  },
+  {
+    "line": 40,
+    "directDependency": "gulp.spritesmith",
+    "declaredVersion": "^6.13.0",
+    "vulnerablePackage": "cross-spawn",
+    "vulnerabilityCode": "SNYK-JS-CROSSSPAWN-8303230",
+    "severity": 8,
+    "message": "Regular Expression Denial of Service (ReDoS) affecting package cross-spawn. Your dependencies are out of date, otherwise you would be using a newer cross-spawn than cross-spawn@5.1.0. Try relocking yo... (Snyk)"
+  },
+  {
+    "line": 40,
+    "directDependency": "gulp.spritesmith",
+    "declaredVersion": "^6.13.0",
+    "vulnerablePackage": "decompress",
+    "vulnerabilityCode": "SNYK-JS-DECOMPRESS-17874437",
+    "severity": 8,
+    "message": "Directory Traversal affecting package decompress. Your dependencies are out of date, otherwise you would be using a newer decompress than decompress@4.2.1. Try relocking your lockfile or deleting node... (Snyk)"
+  },
+  {
+    "line": 40,
+    "directDependency": "gulp.spritesmith",
+    "declaredVersion": "^6.13.0",
+    "vulnerablePackage": "decompress",
+    "vulnerabilityCode": "SNYK-JS-DECOMPRESS-17937347",
+    "severity": 8,
+    "message": "Directory Traversal affecting package decompress. Your dependencies are out of date, otherwise you would be using a newer decompress than decompress@4.2.1. Try relocking your lockfile or deleting node... (Snyk)"
+  },
+  {
+    "line": 40,
+    "directDependency": "gulp.spritesmith",
+    "declaredVersion": "^6.13.0",
+    "vulnerablePackage": "decompress",
+    "vulnerabilityCode": "SNYK-JS-DECOMPRESS-20254116",
+    "severity": 8,
+    "message": "Directory Traversal affecting package decompress. Your dependencies are out of date, otherwise you would be using a newer decompress than decompress@4.2.1. Try relocking your lockfile or deleting node... (Snyk)"
+  },
+  {
+    "line": 40,
+    "directDependency": "gulp.spritesmith",
+    "declaredVersion": "^6.13.0",
+    "vulnerablePackage": "fast-xml-parser",
+    "vulnerabilityCode": "SNYK-JS-FASTXMLPARSER-15677840",
+    "severity": 8,
+    "message": "XML Entity Expansion affecting package fast-xml-parser. Your dependencies are out of date, otherwise you would be using a newer fast-xml-parser than fast-xml-parser@4.5.7. Try relocking your lockfile ... (Snyk)"
+  },
+  {
+    "line": 40,
+    "directDependency": "gulp.spritesmith",
+    "declaredVersion": "^6.13.0",
+    "vulnerablePackage": "fast-xml-parser",
+    "vulnerabilityCode": "SNYK-JS-FASTXMLPARSER-15699647",
+    "severity": 8,
+    "message": "Improper Validation of Specified Quantity in Input affecting package fast-xml-parser. Your dependencies are out of date, otherwise you would be using a newer fast-xml-parser than fast-xml-parser@4.5.7... (Snyk)"
+  },
+  {
+    "line": 40,
+    "directDependency": "gulp.spritesmith",
+    "declaredVersion": "^6.13.0",
+    "vulnerablePackage": "semver-regex",
+    "vulnerabilityCode": "SNYK-JS-SEMVERREGEX-1585624",
+    "severity": 8,
+    "message": "Regular Expression Denial of Service (ReDoS) affecting package semver-regex. Your dependencies are out of date, otherwise you would be using a newer semver-regex than semver-regex@2.0.0. Try relocking... (Snyk)"
+  },
+  {
+    "line": 41,
+    "directDependency": "habitica-markdown",
+    "declaredVersion": "^4.1.0",
+    "vulnerablePackage": "minimatch",
+    "vulnerabilityCode": "SNYK-JS-MINIMATCH-15309438",
+    "severity": 8,
+    "message": "Regular Expression Denial of Service (ReDoS) affecting package minimatch. No remediation advice available"
+  },
+  {
+    "line": 41,
+    "directDependency": "habitica-markdown",
+    "declaredVersion": "^4.1.0",
+    "vulnerablePackage": "minimatch",
+    "vulnerabilityCode": "SNYK-JS-MINIMATCH-15353389",
+    "severity": 8,
+    "message": "Inefficient Algorithmic Complexity affecting package minimatch. No remediation advice available"
+  },
+  {
+    "line": 45,
+    "directDependency": "ioredis",
+    "declaredVersion": "^5.10.1",
+    "vulnerablePackage": "xml-crypto",
+    "vulnerabilityCode": "SNYK-JS-XMLCRYPTO-9459038",
+    "severity": 8,
+    "message": "Improper Verification of Cryptographic Signature affecting package xml-crypto. No remediation advice available"
+  },
+  {
+    "line": 45,
+    "directDependency": "ioredis",
+    "declaredVersion": "^5.10.1",
+    "vulnerablePackage": "xml-crypto",
+    "vulnerabilityCode": "SNYK-JS-XMLCRYPTO-9459039",
+    "severity": 8,
+    "message": "Improper Verification of Cryptographic Signature affecting package xml-crypto. No remediation advice available"
+  },
+  {
+    "line": 46,
+    "directDependency": "js2xmlparser",
+    "declaredVersion": "^5.0.0",
+    "vulnerablePackage": "ioredis",
+    "vulnerabilityCode": "SNYK-JS-IOREDIS-19963957",
+    "severity": 8,
+    "message": "Uncontrolled Recursion affecting package ioredis. Upgrade to ioredis@6.0.0"
+  },
+  {
+    "line": 76,
+    "directDependency": "uuid",
+    "declaredVersion": "^9.0.1",
+    "vulnerablePackage": "useragent",
+    "vulnerabilityCode": "SNYK-JS-USERAGENT-174737",
+    "severity": 8,
+    "message": "Regular Expression Denial of Service (ReDoS) affecting package useragent. No remediation advice available"
+  },
+  {
+    "line": 80,
+    "directDependency": "xml2js",
+    "declaredVersion": "^0.6.2",
+    "vulnerablePackage": "moment",
+    "vulnerabilityCode": "SNYK-JS-MOMENT-19821607",
+    "severity": 8,
+    "message": "Directory Traversal affecting package moment. No remediation advice available"
+  },
+  {
+    "line": 14,
+    "directDependency": "amazon-payments",
+    "declaredVersion": "^0.2.9",
+    "vulnerablePackage": "form-data",
+    "vulnerabilityCode": "SNYK-JS-FORMDATA-17337015",
+    "severity": 4,
+    "message": "CRLF Injection affecting package form-data. No remediation advice available"
+  },
+  {
+    "line": 14,
+    "directDependency": "amazon-payments",
+    "declaredVersion": "^0.2.9",
+    "vulnerablePackage": "request",
+    "vulnerabilityCode": "SNYK-JS-REQUEST-3361831",
+    "severity": 4,
+    "message": "Server-side Request Forgery (SSRF) affecting package request. No remediation advice available"
+  },
+  {
+    "line": 14,
+    "directDependency": "amazon-payments",
+    "declaredVersion": "^0.2.9",
+    "vulnerablePackage": "tough-cookie",
+    "vulnerabilityCode": "SNYK-JS-TOUGHCOOKIE-5672873",
+    "severity": 4,
+    "message": "Prototype Pollution affecting package tough-cookie. No remediation advice available"
+  },
+  {
+    "line": 14,
+    "directDependency": "amazon-payments",
+    "declaredVersion": "^0.2.9",
+    "vulnerablePackage": "xml2js",
+    "vulnerabilityCode": "SNYK-JS-XML2JS-5414874",
+    "severity": 4,
+    "message": "Prototype Pollution affecting package xml2js. No remediation advice available"
+  },
+  {
+    "line": 16,
+    "directDependency": "bcrypt",
+    "declaredVersion": "^6.0.0",
+    "vulnerablePackage": "browserslist",
+    "vulnerabilityCode": "SNYK-JS-BROWSERSLIST-1090194",
+    "severity": 4,
+    "message": "Regular Expression Denial of Service (ReDoS) affecting package browserslist. No remediation advice available"
+  },
+  {
+    "line": 27,
+    "directDependency": "eslint-config-habitrpg",
+    "declaredVersion": "^6.2.3",
+    "vulnerablePackage": "eslint",
+    "vulnerabilityCode": "SNYK-JS-ESLINT-15102420",
+    "severity": 4,
+    "message": "Uncontrolled Recursion affecting package eslint. Upgrade to eslint@10.0.0"
+  },
+  {
+    "line": 27,
+    "directDependency": "eslint-config-habitrpg",
+    "declaredVersion": "^6.2.3",
+    "vulnerablePackage": "uri-js",
+    "vulnerabilityCode": "SNYK-JS-URIJS-19963961",
+    "severity": 4,
+    "message": "Improper Encoding or Escaping of Output affecting package uri-js. Upgrade to eslint@10.0.0"
+  },
+  {
+    "line": 27,
+    "directDependency": "eslint-config-habitrpg",
+    "declaredVersion": "^6.2.3",
+    "vulnerablePackage": "uri-js",
+    "vulnerabilityCode": "SNYK-JS-URIJS-20341609",
+    "severity": 4,
+    "message": "Uncaught Exception affecting package uri-js. Upgrade to eslint@10.0.0"
+  },
+  {
+    "line": 28,
+    "directDependency": "eslint-plugin-mocha",
+    "declaredVersion": "^6.3.0",
+    "vulnerablePackage": "js-yaml",
+    "vulnerabilityCode": "SNYK-JS-JSYAML-13961110",
+    "severity": 4,
+    "message": "Prototype Pollution affecting package js-yaml. No remediation advice available"
+  },
+  {
+    "line": 28,
+    "directDependency": "eslint-plugin-mocha",
+    "declaredVersion": "^6.3.0",
+    "vulnerablePackage": "js-yaml",
+    "vulnerabilityCode": "SNYK-JS-JSYAML-17342520",
+    "severity": 4,
+    "message": "Inefficient Algorithmic Complexity affecting package js-yaml. No remediation advice available"
+  },
+  {
+    "line": 28,
+    "directDependency": "eslint-plugin-mocha",
+    "declaredVersion": "^6.3.0",
+    "vulnerablePackage": "minimist",
+    "vulnerabilityCode": "SNYK-JS-MINIMIST-559764",
+    "severity": 4,
+    "message": "Prototype Pollution affecting package minimist. No remediation advice available"
+  },
+  {
+    "line": 33,
+    "directDependency": "firebase-admin",
+    "declaredVersion": "^12.7.0",
+    "vulnerablePackage": "express-validator",
+    "vulnerabilityCode": "SNYK-JS-EXPRESSVALIDATOR-174763",
+    "severity": 4,
+    "message": "Filter Bypass affecting package express-validator. Upgrade to express-validator@6.0.0"
+  },
+  {
+    "line": 33,
+    "directDependency": "firebase-admin",
+    "declaredVersion": "^12.7.0",
+    "vulnerablePackage": "validator",
+    "vulnerabilityCode": "SNYK-JS-VALIDATOR-1090599",
+    "severity": 4,
+    "message": "Regular Expression Denial of Service (ReDoS) affecting package validator. Upgrade to express-validator@6.5.0"
+  },
+  {
+    "line": 33,
+    "directDependency": "firebase-admin",
+    "declaredVersion": "^12.7.0",
+    "vulnerablePackage": "validator",
+    "vulnerabilityCode": "SNYK-JS-VALIDATOR-1090601",
+    "severity": 4,
+    "message": "Regular Expression Denial of Service (ReDoS) affecting package validator. Upgrade to express-validator@6.5.0"
+  },
+  {
+    "line": 33,
+    "directDependency": "firebase-admin",
+    "declaredVersion": "^12.7.0",
+    "vulnerablePackage": "validator",
+    "vulnerabilityCode": "SNYK-JS-VALIDATOR-1090602",
+    "severity": 4,
+    "message": "Regular Expression Denial of Service (ReDoS) affecting package validator. Upgrade to express-validator@6.5.0"
+  },
+  {
+    "line": 33,
+    "directDependency": "firebase-admin",
+    "declaredVersion": "^12.7.0",
+    "vulnerablePackage": "validator",
+    "vulnerabilityCode": "SNYK-JS-VALIDATOR-13395830",
+    "severity": 4,
+    "message": "Improper Validation of Specified Type of Input affecting package validator. Upgrade to express-validator@6.5.0"
+  },
+  {
+    "line": 35,
+    "directDependency": "got",
+    "declaredVersion": "^11.8.6",
+    "vulnerablePackage": "inflight",
+    "vulnerabilityCode": "SNYK-JS-INFLIGHT-6095116",
+    "severity": 4,
+    "message": "Missing Release of Resource after Effective Lifetime affecting package inflight. Upgrade to glob@12.0.0"
+  },
+  {
+    "line": 37,
+    "directDependency": "gulp-babel",
+    "declaredVersion": "^8.0.0",
+    "vulnerablePackage": "glob-parent",
+    "vulnerabilityCode": "SNYK-JS-GLOBPARENT-1016905",
+    "severity": 4,
+    "message": "Regular Expression Denial of Service (ReDoS) affecting package glob-parent. Upgrade to gulp@5.0.0"
+  },
+  {
+    "line": 37,
+    "directDependency": "gulp-babel",
+    "declaredVersion": "^8.0.0",
+    "vulnerablePackage": "micromatch",
+    "vulnerabilityCode": "SNYK-JS-MICROMATCH-6838728",
+    "severity": 4,
+    "message": "Inefficient Regular Expression Complexity affecting package micromatch. Upgrade to gulp@5.0.0"
+  },
+  {
+    "line": 40,
+    "directDependency": "gulp.spritesmith",
+    "declaredVersion": "^6.13.0",
+    "vulnerablePackage": "decompress",
+    "vulnerabilityCode": "SNYK-JS-DECOMPRESS-16415209",
+    "severity": 4,
+    "message": "Arbitrary File Write via Archive Extraction (Zip Slip) affecting package decompress. Your dependencies are out of date, otherwise you would be using a newer decompress than decompress@4.2.1. Try reloc... (Snyk)"
+  },
+  {
+    "line": 40,
+    "directDependency": "gulp.spritesmith",
+    "declaredVersion": "^6.13.0",
+    "vulnerablePackage": "decompress",
+    "vulnerabilityCode": "SNYK-JS-DECOMPRESS-17937327",
+    "severity": 4,
+    "message": "Symlink Attack affecting package decompress. Your dependencies are out of date, otherwise you would be using a newer decompress than decompress@4.2.1. Try relocking your lockfile or deleting node_modu... (Snyk)"
+  },
+  {
+    "line": 40,
+    "directDependency": "gulp.spritesmith",
+    "declaredVersion": "^6.13.0",
+    "vulnerablePackage": "decompress",
+    "vulnerabilityCode": "SNYK-JS-DECOMPRESS-17937340",
+    "severity": 4,
+    "message": "Symlink Attack affecting package decompress. Your dependencies are out of date, otherwise you would be using a newer decompress than decompress@4.2.1. Try relocking your lockfile or deleting node_modu... (Snyk)"
+  },
+  {
+    "line": 40,
+    "directDependency": "gulp.spritesmith",
+    "declaredVersion": "^6.13.0",
+    "vulnerablePackage": "decompress-tar",
+    "vulnerabilityCode": "SNYK-JS-DECOMPRESSTAR-559095",
+    "severity": 4,
+    "message": "Arbitrary File Write via Archive Extraction (Zip Slip) affecting package decompress-tar. Your dependencies are out of date, otherwise you would be using a newer decompress-tar than decompress-tar@4.1.... (Snyk)"
+  },
+  {
+    "line": 40,
+    "directDependency": "gulp.spritesmith",
+    "declaredVersion": "^6.13.0",
+    "vulnerablePackage": "file-type",
+    "vulnerabilityCode": "SNYK-JS-FILETYPE-15456217",
+    "severity": 4,
+    "message": "Infinite loop affecting package file-type. No remediation advice available"
+  },
+  {
+    "line": 40,
+    "directDependency": "gulp.spritesmith",
+    "declaredVersion": "^6.13.0",
+    "vulnerablePackage": "got",
+    "vulnerabilityCode": "SNYK-JS-GOT-2932019",
+    "severity": 4,
+    "message": "Open Redirect affecting package got. Your dependencies are out of date, otherwise you would be using a newer got than got@7.1.0. Try relocking your lockfile or deleting node_modules and reinstalling y... (Snyk)"
+  },
+  {
+    "line": 40,
+    "directDependency": "gulp.spritesmith",
+    "declaredVersion": "^6.13.0",
+    "vulnerablePackage": "http-cache-semantics",
+    "vulnerabilityCode": "SNYK-JS-HTTPCACHESEMANTICS-3248783",
+    "severity": 4,
+    "message": "Regular Expression Denial of Service (ReDoS) affecting package http-cache-semantics. Your dependencies are out of date, otherwise you would be using a newer http-cache-semantics than http-cache-semant... (Snyk)"
+  },
+  {
+    "line": 40,
+    "directDependency": "gulp.spritesmith",
+    "declaredVersion": "^6.13.0",
+    "vulnerablePackage": "semver-regex",
+    "vulnerabilityCode": "SNYK-JS-SEMVERREGEX-1047770",
+    "severity": 4,
+    "message": "Regular Expression Denial of Service (ReDoS) affecting package semver-regex. Your dependencies are out of date, otherwise you would be using a newer semver-regex than semver-regex@2.0.0. Try relocking... (Snyk)"
+  },
+  {
+    "line": 40,
+    "directDependency": "gulp.spritesmith",
+    "declaredVersion": "^6.13.0",
+    "vulnerablePackage": "semver-regex",
+    "vulnerabilityCode": "SNYK-JS-SEMVERREGEX-2824151",
+    "severity": 4,
+    "message": "Regular Expression Denial of Service (ReDoS) affecting package semver-regex. Your dependencies are out of date, otherwise you would be using a newer semver-regex than semver-regex@2.0.0. Try relocking... (Snyk)"
+  },
+  {
+    "line": 41,
+    "directDependency": "habitica-markdown",
+    "declaredVersion": "^4.1.0",
+    "vulnerablePackage": "minimatch",
+    "vulnerabilityCode": "SNYK-JS-MINIMATCH-22111072",
+    "severity": 4,
+    "message": "Asymmetric Resource Consumption (Amplification) affecting package minimatch. No remediation advice available"
+  },
+  {
+    "line": 76,
+    "directDependency": "uuid",
+    "declaredVersion": "^9.0.1",
+    "vulnerablePackage": "useragent",
+    "vulnerabilityCode": "SNYK-JS-USERAGENT-8309369",
+    "severity": 4,
+    "message": "Regular Expression Denial of Service (ReDoS) affecting package useragent. No remediation advice available"
+  },
+  {
+    "line": 77,
+    "directDependency": "validator",
+    "declaredVersion": "^13.15.35",
+    "vulnerablePackage": "uuid",
+    "vulnerabilityCode": "SNYK-JS-UUID-16133035",
+    "severity": 4,
+    "message": "Improper Validation of Specified Index, Position, or Offset in Input affecting package uuid. Upgrade to uuid@11.1.1"
+  },
+  {
+    "line": 28,
+    "directDependency": "eslint-plugin-mocha",
+    "declaredVersion": "^6.3.0",
+    "vulnerablePackage": "minimist",
+    "vulnerabilityCode": "SNYK-JS-MINIMIST-2429795",
+    "severity": 2,
+    "message": "Prototype Pollution affecting package minimist. No remediation advice available"
+  }
+]
