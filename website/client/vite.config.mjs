@@ -3,7 +3,7 @@ import path from 'path';
 import { defineConfig } from 'vite'
 import { ViteS3 } from '@froxz/vite-plugin-s3'
 import { compression } from 'vite-plugin-compression2';
-import vue from '@vitejs/plugin-vue2'
+import vue from '@vitejs/plugin-vue'
 import { fileURLToPath } from 'node:url'
 import setupNconf from '../server/libs/setupNconf';
 

@@ -1,3 +1,4 @@
+import path from 'path';
 import { sync as glob } from 'glob';
 
 describe('Locales files', () => {
@@ -11,7 +12,7 @@ describe('Locales files', () => {
     const keys = {};
 
     translationFiles.forEach(file => {
-      const json = require(`../.${file}`); // eslint-disable-line global-require, import/no-dynamic-require
+      const json = require(path.resolve(process.cwd(), file)); // eslint-disable-line global-require, import/no-dynamic-require
 
       Object.keys(json).forEach(key => {
         if (keys[key]) {

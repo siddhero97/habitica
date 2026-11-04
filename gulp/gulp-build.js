@@ -6,7 +6,7 @@ import babel from 'gulp-babel';
 import os from 'os';
 import fs from 'fs';
 import spawn from 'cross-spawn';
-import clean from 'rimraf';
+import { rimrafSync } from 'rimraf';
 
 gulp.task('build:babel:server', () => gulp.src('website/server/**/*.js')
   .pipe(babel())
@@ -77,7 +77,7 @@ gulp.task('build:prepare-mongo', async () => {
 
   if (!manuallyStopped && (exitCode || error.length > 0)) {
     // remove any leftover files
-    clean.sync(MONGO_PATH);
+    rimrafSync(MONGO_PATH);
 
     throw new Error(`Error running run-rs: ${error}`);
   }
