@@ -115,6 +115,9 @@
     "postinstall": "git config --global url.\"https://\".insteadOf git:// && gulp build && cd website/client && npm install",
     "heroku-postbuild": ".heroku/report_deploy.sh"
   },
+  "overrides": {
+    "axios": "$axios"
+  },
   "devDependencies": {
     "axios": "^1.20.0",
     "chai": "^4.3.7",
